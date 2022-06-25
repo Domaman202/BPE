@@ -1,0 +1,16 @@
+accessWidener v2 named
+
+transitive-accessible class net/minecraft/server/world/ChunkTicketManager$TicketDistanceLevelPropagator
+#transitive-accessible class net/minecraft/server/world/ChunkTicketManager$DistanceFromNearestPlayerTracker
+transitive-accessible class net/minecraft/server/world/ChunkTicketManager$NearbyChunkTicketUpdater
+transitive-accessible class net/minecraft/server/world/ThreadedAnvilChunkStorage$TicketManager
+
+transitive-accessible field net/minecraft/server/world/ThreadedAnvilChunkStorage unloadedChunks Lit/unimi/dsi/fastutil/longs/LongSet;
+transitive-accessible field net/minecraft/server/world/ChunkTicketManager chunkHolders Ljava/util/Set;
+
+transitive-accessible method net/minecraft/server/world/ChunkHolder tick (Lnet/minecraft/server/world/ThreadedAnvilChunkStorage;Ljava/util/concurrent/Executor;)V
+transitive-accessible method net/minecraft/server/world/ChunkTicket <init> (Lnet/minecraft/server/world/ChunkTicketType;ILjava/lang/Object;)V
+transitive-accessible method net/minecraft/server/world/ChunkTicket setTickCreated (J)V
+transitive-accessible method net/minecraft/server/world/ChunkTicket isExpired (J)Z
+transitive-accessible method net/minecraft/server/world/ChunkTicketManager setWatchDistance (I)V
+transitive-accessible method net/minecraft/server/world/ServerLightingProvider updateChunkStatus (Lnet/minecraft/util/math/ChunkPos;)V

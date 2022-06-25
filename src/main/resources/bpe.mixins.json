@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.DmN.bpe.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "ru.DmN.bpe.Plugin",
+  "mixins": [
+    "BlockPosMixin",
+    "ChunkLightProviderMixin",
+    "ChunkPosDistanceLevelPropagatorMixin",
+    "ChunkTicketManagerMixin",
+    "LevelPropagatorMixin",
+    "LightStorageMixin",
+    "ServerChunkManagerMixin",
+    "SimulationDistanceLevelPropagatorMixin",
+    "ThreadedAnvilChunkStorageMixin",
+    "TicketDistanceLevelPropagatorMixin",
+    "TicketManagerMixin",
+    "UnblockingMessageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
